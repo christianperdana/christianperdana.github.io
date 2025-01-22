@@ -10,3 +10,8 @@
 section{
     padding-top: 5rem;
 }
+
+.card-img-top{
+    height: 200px;
+    weight: 300px;
+}
