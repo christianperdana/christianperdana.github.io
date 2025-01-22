@@ -1,16 +1,29 @@
-.jumbotron{
+.jumbotron {
     padding-top: 6rem;
     background-color: #e2edff;
 }
 
-#projects{
+#projects {
     background-color: #e2edff;
 }
 
-section{
+section {
     padding-top: 5rem;
 }
 
-.card-img-top{
+.card-img-top {
     height: 200px;
+}
+
+@media (min-width: 768px) {
+    #contact ul {
+        display: flex;
+        justify-content: center;
+        gap: 1.5rem;
+        /* Jarak antar item */
+    }
+
+    #contact ul li {
+        display: inline-block;
+    }
 }
